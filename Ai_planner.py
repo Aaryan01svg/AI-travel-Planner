@@ -4,6 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 sp.title('AI powerd Travel Assistant')
 
+sp.image(r"C:\Users\aaryan\Downloads\pngtree-travel-around-the-world-background-picture-image_2253108.jpg", use_column_width=True)
 
 
 source = sp.text_input('Source ',placeholder='E.g. Mumbai')
