@@ -1,3 +1,5 @@
+pip install langchain_google_genai
+
 import streamlit as sp
 from langchain_google_genai import ChatGoogleGenerativeAI
 
