@@ -21,8 +21,8 @@ def travel_option(source,destination,mode,travel_date):
     model = ChatGoogleGenerativeAI(api_key = 'AIzaSyBb78vgrSXypIr4YYjkoozC5DGAwwYU0TM',model='gemini-2.0-flash-lite')
     
     try :
-        respose = model.invoke([user_prommpt,system_prompt])
-        return respose.content if respoce else 'No Responce'
+        response = model.invoke([user_prommpt,system_prompt])
+        return response.content if response else 'No Responce'
     except Exception as e:
         return (f'error: {str(e)}')
 
