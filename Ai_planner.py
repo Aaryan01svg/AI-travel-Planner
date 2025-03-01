@@ -31,7 +31,7 @@ def travel_option(source,destination,mode,travel_date):
 # finding travel options 
 if sp.button('Find Traveling options'):
     if source.strip() and destination.strip():
-        travel_option(source,destination,mode,travel_date)
-        sp.markdown(travel_option())
+        result = travel_option(source,destination,mode,travel_date)
+        sp.markdown(result)
     else:
         sp.warning('Please enter Sources')
