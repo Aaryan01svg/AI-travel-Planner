@@ -1,10 +1,9 @@
 import streamlit as sp
 from langchain_google_genai import ChatGoogleGenerativeAI
 
+sp.image('https://png.pngtree.com/background/20230401/original/pngtree-travel-around-the-world-background-picture-image_2253108.jpg', use_container_width=True)
 
 sp.title('AI powerd Travel Assistant')
-
-sp.image('https://png.pngtree.com/background/20230401/original/pngtree-travel-around-the-world-background-picture-image_2253108.jpg', use_container_width=True)
 
 
 source = sp.text_input('Source ',placeholder='E.g. Mumbai')
